@@ -8,6 +8,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/index.js" defer></script>
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
 
@@ -15,7 +16,7 @@
 
 
   <main>
-    <section>
+    <section id="main-section">
       <!-- Rating state start -->
       <div class="container">
         <img src="assets/images/icon-star.svg" alt="Yellow Star" title="Image of a yellow star">
@@ -24,23 +25,22 @@
           Please let us know how we did with your support request. All feedback is appreciated
           to help us improve our offering!
         </p>
-        <div class="rating">
-          <button class="btn-rating">1</button>
-          <button class="btn-rating">2</button>
-          <button class="btn-rating">3</button>
-          <button class="btn-rating">4</button>
-          <button class="btn-rating">5</button>
-        </div>
-        <button class="submit">Submit</button>
+        <ul>
+          <li><button class="btn-rating">1</button></li>
+          <li><button class="btn-rating">2</button></li>
+          <li><button class="btn-rating">3</button></li>
+          <li><button class="btn-rating">4</button></li>
+          <li><button class="btn-rating">5</button></li>
+        </ul>
+        <button id="submit" class="btn-submit">Submit</button>
       </div>
     </section> <!-- Rating state end -->
 
     <section>
       <!-- Thank you state start -->
-      <div class="container thank-you">
+      <div class="container thank-you display-none">
         <img src="assets/images/illustration-thank-you.svg" alt="Thank you illustration">
-        <h3>You selected
-          <!-- Add rating here --> out of 5
+        <h3>You selected<span id="rating" style="display: inline-block; margin: 0 0.3rem">1</span>out of 5
         </h3>
         <h1>Thank you!</h1>
         <p>We appreciate you taking the time to give a rating. If you ever need more support,
