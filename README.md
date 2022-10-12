@@ -1,4 +1,4 @@
-# Frontend Mentor - Interactive rating component
+# Frontend Mentor - Interactive rating component Challenge
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
