@@ -8,8 +8,10 @@
 O desafio é desenvolver um interface interativa com os seguintes detalhes
 - Interface responsiva :heavy_check_mark:
 - Interagir com os elementos e ver as diferenças nos estados de hover e selected :heavy_check_mark:
-- Selecionar e enviar uma avaliação :ballot_box_with_check:
-- Ver uma página de "Thank you" depois de clicar em enviar:ballot_box_with_check:
+- Selecionar e enviar uma avaliação :heavy_check_mark:
+- Ver uma página de "Thank you" depois de clicar em enviar:heavy_check_mark:
 
+
+[Link do Deploy](https://paulohmoreira.github.io/interactive-rating-component-main/)
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
