@@ -41,7 +41,6 @@ body main section .container,
 .thank-you {
   align-items: center;
   text-align: center;
-  display: none;
 }
 
 .thank-you h3 {
@@ -79,7 +78,6 @@ body main section .container,
   height: 3rem;
   border: none;
   border-radius: 50%;
-  padding: 20px;
   cursor: pointer;
   transition: 0.3s
 }
