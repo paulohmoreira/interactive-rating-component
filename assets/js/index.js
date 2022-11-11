@@ -4,6 +4,9 @@ const submitButton = document.getElementById("submit");
 const rateValue = document.querySelectorAll(".btn-rating");
 const actualRate = document.getElementById("rating");
 
+// Desabilita botão submite para evitar abrir página de obrigado sem clicar na nota
+submitButton.disabled = true;
+
 submitButton.addEventListener("click", () => {
   mainSection.style.display = "none";
   thankYouSection.classList.remove("display-none");
@@ -12,6 +15,7 @@ submitButton.addEventListener("click", () => {
 rateValue.forEach((rating) => {
   rating.addEventListener("click", () => {
     actualRate.innerHTML = rating.innerHTML;
+    submitButton.disabled = false;
     console.log(rating.innerHTML)
   })
 })
